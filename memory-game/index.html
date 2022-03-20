@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="game-style.css">
+</head>
+
+<body class="conteudo">
+
+    <header>
+        <h1>Jogo da memória</h1>
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Novo Jogo</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>Pontos:<span score></span></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="cards-wrapper">
+        <div class="card-wrapper">
+            <div class="card" id="card1" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card2" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card3" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card4" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card5" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card6" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card7" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card8" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card9" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card10" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card11" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card12" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card13" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card14" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card15" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card16" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card17" image-id=""> <img src=""> </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card" id="card18" image-id=""> <img src=""> </div>
+        </div>
+    </section>
+
+    <section class="images-content-wrapper" style="display: none;">
+        <div class="image" image-id="0">
+            <img src="./Images/squirel.jpg">
+        </div>
+        <div class="image" image-id="1">
+            <img src="./Images/bird.jpg">
+        </div>
+        <div class="image" image-id="2">
+            <img src="./Images/cat.jpg">
+        </div>
+        <div class="image" image-id="3">
+            <img src="./Images/eagle.jpg">
+        </div>
+        <div class="image" image-id="4">
+            <img src="./Images/elephant.jpg">
+        </div>
+        <div class="image" image-id="5">
+            <img src="./Images/giraffe.jpg">
+        </div>
+        <div class="image" image-id="6">
+            <img src="./Images/goose.jpg">
+        </div>
+        <div class="image" image-id="7">
+            <img src="./Images/bee.jpg">
+        </div>
+        <div class="image" image-id="8">
+            <img src="./Images/aligator.jpg">
+        </div>
+    </section>
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="removePopup()">&times;
+            </div>
+            <h1>PARANBÉNS!</h1>
+            <p>
+                Você alcançou a pontuação máxima.
+            </p>
+            <div class="nav-link-wrapper">
+                <a href="index.html">Novo Jogo</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-2">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="removePopup1()">&times;
+            </div>
+            <h1>JOGADA INVÁLIDA!</h1>
+            <p>
+                Para realizar uma jogada válida, clique em uma carta virada para baixo.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+<script src="game-script.js"></script>
+
+<style> </style>
+
+</html>
