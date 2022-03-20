@@ -2,7 +2,7 @@
 
 This was my first ever project that was made with html css and javascript. 
 
-I got the idea for this game from the youtube channel "freecodecamp.org". They had a tutorial on how to make it, so i decided to try to make on my own, and then compare my code with theirs for better learning. 
+I got the idea for this game from the youtube channel "freecodecamp.org". They had a tutorial on how to make it, so i decided to try to do it on my own, and then compare my code with theirs for better learning. 
 
 The project is a classical memory game (in wich i choose the theme to be animals), and must work the following way:
 
