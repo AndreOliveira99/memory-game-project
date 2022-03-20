@@ -8,9 +8,8 @@ The project is a classical memory game (in wich i choose the theme to be animals
 
 - The game elements are a set of cards in wich every card has a pair that's identical to it
 - Every card has on its face an unique image, thats identical only to its pair 
-- The game starts by placing all the cards facing down, so that you cant see the content, and shuffling the set of cards in a ramdom order 
-- The player can choose two cards facing down, if the two cards are identical, the player scores a point, and the cards keep facing up until the game ends
-- If the cards selected are not identical, the cards must turn facing down again
-- The game ends when all the cards are facing up
+- The game starts by placing all the cards facing down, so that you cant see the content, then the cards are shuffled in a ramdom order 
+- The player can choose two cards facing down: If the two cards are identical, the player scores a point, and the cards keep facing up until the game ends. If the cards selected are not identical, the cards must turn facing down again
+- The game ends when all the pairs are discovered and all the cards are facing up
 
 Since this was my first project, it has A LOT of room to improvement. I will probably refactor it soon, or keep it like it is to keep the remembrance of how i started, and how my continuing progress is going.
